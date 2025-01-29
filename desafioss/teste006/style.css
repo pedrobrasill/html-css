@@ -18,7 +18,7 @@
 body{
     max-width: 800px;
     min-width: 300px;
-    background-image: url('imagens/img.jpeg');
+    background-image: url('imagens/img.jpe');
     background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
@@ -83,7 +83,7 @@ section p{
 }
 
 .ajuste-img{
-    background-image: url('imagens/pexels-photo.jpg');
+    background-image: url('imagens/pexels-photo.jp');
     background-repeat: no-repeat;
     background-position: 70% bottom;
     background-attachment: fixed;
