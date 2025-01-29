@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 105px;
+}
+nav > a{
+    padding: 11px;
+}
+main{
+    background-color: aqua;
+    width: 500px;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
+article{
+    background-color: rgb(83, 161, 161);
+}
+.one{
+    background-color: rgb(83, 161, 161);
+}

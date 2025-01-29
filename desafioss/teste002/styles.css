@@ -1,0 +1,43 @@
+/* Reset básico para garantir que o layout seja consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container do carro */
+.car-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;  /* Projeção 3D */
+}
+
+/* Estilo do carro */
+.car {
+    width: 200px;  /* Largura do carro */
+    height: auto;
+    animation: spin 5s linear infinite;  /* Animação */
+}
+
+/* Definindo a animação de rotação */
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg); /* Posição inicial */
+    }
+    100% {
+        transform: rotateY(360deg); /* Posição final (rotação completa) */
+    }
+}

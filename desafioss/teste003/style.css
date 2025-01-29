@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+.divleft{
+width: 49,5%;
+height: 949px;
+float: left;
+position: relative;
+}
+#spaceText{
+padding-right: 16px;
+}
+h1{
+    position: c;
+    top: 0;
+    left: 0;
+    
+}

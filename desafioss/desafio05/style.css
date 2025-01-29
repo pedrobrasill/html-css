@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:active{
+    color: aqua;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited{
+        color: rgb(57, 255, 206);
+}
+
+a::before{
+    content: '⮘';
+}
+
+a::after{
+    content: '⮚';
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

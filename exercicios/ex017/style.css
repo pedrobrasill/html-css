@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(109, 166, 168);
+    
+}
+main{
+    width: 70%;
+}
+h1{
+    text-align: center;
+    color: bisque;
+    font: italic 650 2em arial helvetica sans-serif ;
+    
+}
+#person{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: blanchedalmond;
+    height: 50%;
+    
+    
+}
+p{
+    font: normal 350 1.2em times;
+    text-align: justify;
+    text-indent: 20px;
+}
