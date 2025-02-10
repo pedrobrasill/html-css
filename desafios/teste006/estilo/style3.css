@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-image: url('../imagens/teto2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ffdabf;
+}
+main{
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    margin: 0vw 20vw 0vw 20vw ;
+}
+aside{
+    background-color: #4e4b4427;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+}
+#img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.music/*link*/{
+
+}
+
+main > section > p{
+    padding: 20px;
+    text-align: justify;
+}
