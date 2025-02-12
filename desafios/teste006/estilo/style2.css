@@ -40,6 +40,21 @@ main{
     border-radius: 10px;
     box-shadow: 1px 1px 20px black;
     text-align: center;
-    
 }
+
+#video{
+    background-color: var(--cor5);
+    margin: 8px -1px 17px 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 53.9%;
+}
+#video-yt{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 
