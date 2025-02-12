@@ -43,7 +43,6 @@ main{
 }
 
 #video{
-    background-color: var(--cor5);
     margin: 8px -1px 17px 0px;
     padding: 20px;
     position: relative;
@@ -51,10 +50,10 @@ main{
 }
 #video-yt{
     position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    top: 3%;
+    left: 3%;
+    width: 50%;
+    height: 50%;
 }
 
 
