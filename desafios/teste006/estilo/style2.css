@@ -2,10 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 
+body{
+    background-image: url('../imagens/teto2.jpg');
+}
+
 header{
     background-image: linear-gradient(to right, #273142,#556270);
     color: white;
     text-align: center;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 header > h1{
@@ -15,12 +20,26 @@ header > h1{
     margin-bottom: 20px;
 }
 header > nav > a{
+    font-variant: small-caps;
     padding: 10px 15px 10px 15px;
     border-radius: 15px;
 
 }
 nav > a:hover{
-    background-color: #00e1ff96;
+    background-image: linear-gradient(to right, #2731428e,#323941);
     transform: scale(1.1);
+}
+
+h2{
+    font-variant: small-caps;
+    padding: 15px;
+}
+main{
+    background-color: white;
+    margin: 0vw 6vw 0vw 6vw ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    text-align: center;
+    
 }
 
