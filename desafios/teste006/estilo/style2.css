@@ -46,14 +46,39 @@ main{
     margin: 8px -1px 17px 0px;
     padding: 20px;
     position: relative;
-    padding-bottom: 53.9%;
+    padding-bottom: 4%;
 }
 #video-yt{
     position: absolute;
-    top: 3%;
-    left: 3%;
-    width: 50%;
-    height: 50%;
+    top: 2%;
+    left: 15%;
+    width: 60vw;
+    height: 30vw;
 }
 
+footer{
+    font-family: "Eater", Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to right, #27314291,#323941c5);
+    padding: 8px;
+    text-align: center;
+}
 
+footer > a:hover{
+    text-decoration: underline;
+}
+
+.alinhar{
+    text-align: center;
+    padding: 0 10vw;
+}
+
+.iframe{
+    padding-bottom: 3%;
+}
+#videos{
+    margin: 8px -1px 17px 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 40%;
+}

@@ -34,9 +34,6 @@ main{
     padding-bottom: 20px;
 }
 
-.music/*link*/{
-
-}
 
 main > section > p{
     padding: 20px;
@@ -60,3 +57,4 @@ main > section > p{
     background-color: aqua;
     transform: scale(1.1);
 }
+
