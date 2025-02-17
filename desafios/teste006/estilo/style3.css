@@ -9,6 +9,7 @@ body{
     background-attachment: fixed;
     background-color: #ffdabf;
 }
+
 .name{
     font-family: 'Eater', Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -17,16 +18,12 @@ body{
     padding: 10px;
 
 }
-main{
-    background-color: white;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.459);
-    border-radius: 10px;
-    margin: 0vw 6vw 0vw 6vw ;
-}
+
 .img-teto{
     background-color: #4e4b4427;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
 }
+
 #img{
     display: block;
     margin: 0 auto;
@@ -34,25 +31,11 @@ main{
     padding-bottom: 20px;
 }
 
-
 main > section > p{
     padding: 20px;
     text-align: justify;
 }
 
-.next-button{
-    background-image: linear-gradient(to left, #2731428e,#323941);
-    color: white;
-    font-size: 1em;
-    border: none;
-    padding: 10px;
-    border-radius: 20px;
-}
-.p-but{
-    text-align: right;
-    margin:20px;
-    
-}
 .next-button:hover{
     background-color: aqua;
     transform: scale(1.1);

@@ -46,7 +46,7 @@ main{
     margin: 8px -1px 17px 0px;
     padding: 20px;
     position: relative;
-    padding-bottom: 4%;
+    padding-bottom: 10%;
 }
 #video-yt{
     position: absolute;
@@ -68,21 +68,11 @@ footer > a:hover{
     text-decoration: underline;
 }
 
-.alinhar{
+.alinhar-paragrafo{
     text-align: center;
-    padding: 0 10vw;
+    padding: 0 25vw;
 }
 
-.iframe{
-    padding-bottom: 3%;
-}
-
-#video{
-    margin: 8px -1px 17px 0px;
-    padding: 20px;
-    position: relative;
-    padding-bottom: 35%;
-}
 #paypal-yt{
     position: absolute;
     top: 2%;
