@@ -2,7 +2,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('imagens/fundo.jpg');
+    background-image: url('../imagens/fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -135,4 +135,23 @@ ul {
 
 .assine-button:hover{
     background-color: rgba(134, 233, 134, 0.699);
+}
+
+
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.img-footer{
+    color: white;
+    margin: auto;   
+    
 }

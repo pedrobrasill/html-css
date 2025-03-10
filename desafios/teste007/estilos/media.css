@@ -1,0 +1,30 @@
+@media (max-width: 762px) {
+    .container{
+        display: block;
+    }
+    .div-gold{
+        margin: auto;
+    }
+
+    .div-silver{
+        margin: auto;
+    }
+    .div-platinium{
+        margin: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    nav > a{
+        display: block;
+        text-align: left;
+    }    
+
+    #logo{
+        margin-bottom: 10%;
+    }
+}
+
+@media (min-width: 762px) {
+    
+}
