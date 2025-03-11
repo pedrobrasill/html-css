@@ -4,27 +4,32 @@
     }
     .div-gold{
         margin: auto;
+        margin-bottom: 30px;
     }
 
     .div-silver{
         margin: auto;
+        margin-bottom: 30px;
     }
     .div-platinium{
         margin: auto;
+        margin-bottom: 30px;
     }
 }
 
 @media (max-width: 650px) {
-    nav > a{
-        display: block;
-        text-align: left;
+    nav{
+        font-size: 1em;
+        text-align: center;
+        margin: 2%;
     }    
 
-    #logo{
-        margin-bottom: 10%;
-    }
 }
 
-@media (min-width: 762px) {
-    
+@media (max-width: 762px) {
+    #logo{
+        display: block;
+        margin: auto;
+        padding-bottom: 20%;
+    }
 }

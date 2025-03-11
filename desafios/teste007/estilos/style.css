@@ -53,8 +53,8 @@ main > h1{
 
 .div-silver{
     width: 200px;
+    height: 400px;
     margin-left: 10%;
-    padding-right: 10px;
     border-radius: 12px;
     background-color: rgb(43, 49, 54);
     font-size: 1.2em;
@@ -66,6 +66,7 @@ main > h1{
 
 .div-gold{
     width: 200px;
+    height: 400px;
     margin: auto;
     border-radius: 12px;
     background-color: rgb(43, 49, 54);;
@@ -78,6 +79,7 @@ main > h1{
 
 .div-platinium{
     width: 200px;
+    height: 400px;
     margin-right: 10%;
     border-radius: 12px;
     background-color: rgb(43, 49, 54);
@@ -133,11 +135,22 @@ ul {
     padding: 20px;
 }
 
+.ajuste{
+    margin-top: 70px;
+}
+
+.ajuste-gold{
+    margin-top: 100px;
+}
+
+#teste{
+    color: white;
+    display: block;
+}
+
 .assine-button:hover{
     background-color: rgba(134, 233, 134, 0.699);
 }
-
-
 
 footer{
     background-color: black;
@@ -151,7 +164,8 @@ footer{
 }
 
 .img-footer{
-    color: white;
-    margin: auto;   
+    display: block;
+    position: absolute;  
+    bottom: 0%;
     
 }
