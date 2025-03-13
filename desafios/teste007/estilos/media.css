@@ -2,18 +2,26 @@
     .container{
         display: block;
     }
-    .div-gold{
-        margin: auto;
-        margin-bottom: 30px;
-    }
 
     .div-silver{
+        width: 50%;
+        height: 350px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 10%;
     }
-    .div-platinium{
+
+    .div-gold{
+        width: 50%;
+        height: 350px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 10%;
+    }
+
+    .div-platinium{
+        width: 50%;
+        height: 350px;
+        margin: auto;
+        margin-bottom: 10%;
     }
 }
 
@@ -26,10 +34,22 @@
 
 }
 
+
+
 @media (max-width: 762px) {
     #logo{
         display: block;
         margin: auto;
         padding-bottom: 20%;
+    }
+}
+
+@media (max-width: 762px) {
+    footer{
+        display: flex;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        color: white;
     }
 }
