@@ -60,11 +60,11 @@ main > h1{
     font-weight: bolder;
     color: white;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .container{
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .h1-planos{
@@ -132,6 +132,7 @@ main > h1{
 }
 
 ul {
+    font-size: 1.3em;
     padding-top: 20px;
     color: white;
 }
@@ -165,14 +166,11 @@ ul {
     padding: 20px;
 }
 
-#teste{
-    color: white;
-    display: block;
-}
 
 .assine-button:hover{
-    background-color: rgba(134, 233, 134, 0.699);
+    transform: scale(1.1);
 }
+
 
 footer {
     font-size: 10px;

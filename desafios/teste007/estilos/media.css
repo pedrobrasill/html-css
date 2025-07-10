@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
-@media screen and (min-width:) {
+/*Todas as demais mídias*/
+
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 767px
+Tablet: 768px até 1023px
+Desktop: >= 1024px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 700px) and (max-width: 1023px) { /*Tablet*/
+    #ul-silver li {
+        font-size: 1.5em;
+    }
+
+    #ul-gold {
+        font-size: 1.5em;
+    }
     
+    #ul-platinium {
+        font-size: 1.5em;
+    }
+
+    .div-silver{
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .div-gold{
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .div-platinium {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .big-numb{
+        padding-left: 24%;
+        color: white;
+        font-weight: 545;
+        font-size: 1.4em;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) { /* Desktop */
+    #text-plan{
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    .div-silver, .div-gold, .div-platinium {
+        margin-left: 9%;
+        margin-right: 1%;
+        
+    }
+
+    .container {
+        display: flex;
+        margin-top: -5px;
+    }
+
+}
+
+@media screen and (min-width: 1201px)  {
+        .container{
+            display: flex;
+        }
+
+        .div-silver, .div-gold, .div-platinium {
+         margin: 2% auto 0% auto;
+        
+        }
+
+        body, main,html {
+            height: 100%;
+        }
+        .div-silver{
+        margin-left: 20vw;
+        margin-right: 20vw;
+        }
+
+        .div-gold{
+            margin: 0px 50px 0px 50px;
+        }
+
+        .div-platinium {
+            margin-left: 2vw;
+            margin-right: 20vw;
+        }
+
 }
