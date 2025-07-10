@@ -1,54 +1,5 @@
-@media (max-width: 762px) {
-    .container{
-        display: block;
-    }
+@charset "UTF-8";
 
-    .div-silver{
-        width: 50%;
-        height: 350px;
-        margin: auto;
-        margin-bottom: 10%;
-    }
-
-    .div-gold{
-        width: 50%;
-        height: 350px;
-        margin: auto;
-        margin-bottom: 10%;
-    }
-
-    .div-platinium{
-        width: 50%;
-        height: 350px;
-        margin: auto;
-        margin-bottom: 10%;
-    }
-}
-
-@media (max-width: 650px) {
-    nav{
-        font-size: 1em;
-        text-align: center;
-        margin: 2%;
-    }    
-
-}
-
-
-@media (max-width: 762px) {
-    #logo{
-        display: block;
-        margin: auto;
-        padding-bottom: 20%;
-    }
-}
-
-@media (max-width: 762px) {
-    footer{
-        display: flex;
-        background-color: black;
-        position: absolute;
-        width: 100%;
-        color: white;
-    }
+@media screen and (min-width:) {
+    
 }
