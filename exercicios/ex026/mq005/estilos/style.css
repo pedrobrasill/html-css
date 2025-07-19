@@ -7,11 +7,11 @@
 }
 
 body, html {
-    background-color: lightgray;
+    background-color: rgb(48, 48, 48);
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(88, 88, 88);
 
 }
 
@@ -36,7 +36,6 @@ header > h1 {
 
 menu {
     display: none;
-    text-align: center;
 }
 
 menu > ul {
@@ -50,6 +49,7 @@ menu > ul > li > a {
     background-color: rgb(41, 41, 41);
     color: white;
     border-top: 2px solid gray;
+    text-align: center;
 }
 
 menu > ul > li > a:hover{
